@@ -5,6 +5,7 @@
 } */
 
 body {
+  height: 100%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -18,4 +19,60 @@ body {
   align-items: center;
   background: url(./assets/backgrounds/landing.jpg) no-repeat;
   background-size: 100% 100%;
+  color: white;
+}
+
+/* .header p {
+  margin-top: 50px;
+} */
+
+.sub-header {
+  display: flex;
+  height: 200px;
+}
+
+.menu {
+  background-size: 100% 100%;
+  color: white;
+  font-style: italic;
+}
+
+#breakfast-bg {
+  background: url(./assets/foodtop/breakfast.jpg) no-repeat;
+}
+
+#lunch-bg {
+  background: url(./assets/foodtop/lunch.jpg) no-repeat;
+}
+
+#dinner-bg {
+  background: url(./assets/foodtop/dinner.jpg) no-repeat;
+}
+
+.sub-menu,
+.menu {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.sub-menu {
+  flex-direction: column;
+}
+
+#partyTime,
+#happyHour {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+#partyTime {
+  background-color: #f15a29;
+}
+#happyHour {
+  background-color: #f5f5f5;
 }
