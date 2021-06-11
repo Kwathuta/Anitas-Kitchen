@@ -18,6 +18,14 @@ body {
   font-family: "Mate", serif;
 }
 
+#menuIcon {
+  top: 10%;
+  left: 15%;
+  position: absolute;
+  height: 40px;
+  width: 80px;
+}
+
 .header p {
   margin: 5px;
 }
