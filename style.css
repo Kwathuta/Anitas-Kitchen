@@ -14,7 +14,8 @@ body {
   background: url("./assets/backgrounds/landing.jpg") no-repeat;
   background-size: 100% 100%;
   color: white;
-  font-size: xx-large;
+  font-size: 48px;
+  font-family: "Mate", serif;
 }
 
 .header p {
