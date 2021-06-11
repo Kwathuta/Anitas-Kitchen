@@ -14,6 +14,11 @@ body {
   background: url("./assets/backgrounds/landing.jpg") no-repeat;
   background-size: 100% 100%;
   color: white;
+  font-size: xx-large;
+}
+
+.header p {
+  margin: 5px;
 }
 
 .sub-header {
@@ -39,6 +44,11 @@ body {
 #dinner-bg {
   background: url("./assets/foodtop/dinner.jpg") no-repeat;
   background-size: 100% 100%;
+}
+
+#lunch-bg:hover {
+  background-color: #f5f5f5;
+  opacity: 0.5;
 }
 
 .menu,
