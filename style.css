@@ -58,6 +58,7 @@ body {
 #lunch-bg:hover {
   background-color: #f5f5f5;
   opacity: 0.5;
+  transition: 500ms;
 }
 
 .menu,
