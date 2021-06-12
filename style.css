@@ -170,3 +170,14 @@ footer p {
 #logos img {
   margin-left: 20px;
 }
+
+.above-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  color: #f5f5f5;
+  background: url("./assets/backgrounds/subscribe.jpg");
+  background-size: 100% 100%;
+}
