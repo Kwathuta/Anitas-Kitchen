@@ -212,3 +212,34 @@ input {
   margin-right: 10px;
   border: none;
 }
+
+.reviews {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 5px grey;
+  padding: 20px;
+  color: grey;
+}
+
+.aboutMenu,
+.happyCustomers {
+  width: 100%;
+  text-align: center;
+}
+
+.happyCustomers {
+  padding-right: 20px;
+}
+
+.aboutMenu {
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+
+.reviews h2 {
+  color: #f15a29;
+}
