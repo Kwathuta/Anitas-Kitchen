@@ -41,6 +41,7 @@ body {
 .menu {
   color: white;
   font-style: italic;
+  font-family: serif;
 }
 
 #breakfast-bg {
